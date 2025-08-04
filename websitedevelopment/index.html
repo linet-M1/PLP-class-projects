@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Week 2</title>
+        </head>
+        <body>
+            <h1>Enhanced HTML Elements</h1>
+            <h2>Definition List</h2>
+            <dl>
+                <dt>USA</dt>
+                <dd>United States of America.</dd>
+                <dt>UAE</dt>
+                <dd>United Arab Emirates.</dd>
+            </dl>
+            <h2>Nested Lists</h2>
+            <ol>
+                <li>Cars
+                    <ol type="i">
+                        <li>Toyota
+                            <ol type="a">
+                                <li>Corolla</li>
+                                <li>Camry</li>
+                                <li>Prius</li>
+                            </ol>
+                        </li>
+                        <li>Mazda</li>
+                        <li>Nissan</li>
+                    </ol>
+                </li>
+                <li>Motorbikes
+                    <ul>
+                        <li>Honda</li>
+                        <li>Yamaha</li>
+                        <li>Kawasaki</li>
+                    </ul>
+                </li>
+            </ol>
+            <h2>multimedia</h2>
+            <h3>Images</h3>
+            <img src="https://images.pexels.com/photos/31889976/pexels-photo-31889976.jpeg" 
+            alt="Desert sand" width="500" height="350">
+            <h3>Audio</h3>
+            <audio controls>
+                <source src="" type="audio/mpeg">
+                Your browser does not support audio playback.
+            </audio>
+            <h3>Video</h3>
+            <video width="640" height="360" controls>
+                <source src="https://videos.pexels.com/video-files/854514/854514-hd_1280_720_30fps.mp4" type="video/mp4">
+                Your browser does not support video playback.
+            </video>
+             <h2>Tables</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Gender</th>
+                        <th>Country</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jane Doe</td>
+                        <td>Female</td>
+                        <td>U.A.E</td>
+                    </tr>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>Male</td>
+                        <td>Russia</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Forms</h2>
+            <form action="https://example.com/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br><br>
+                <label for="gender">Gender:</label>
+                <input type="radio" id="Male"  name="gender" value="Male">
+                <input type="radio" id="Female"  name="gender" value="Female">
+                <label for="country">Country:</label>
+                <br><br>
+                <select id="country" name="country">
+                    <option value="usa">USA</option>
+                    <option value="uae">UAE</option>
+                    <option value="russia">Russia</option>
+                </select>
+                <br><br>
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+                </body>
+    </html>
+        
+        
